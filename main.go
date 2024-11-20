@@ -36,4 +36,9 @@ func main() {
 	// remember if -- uint -- it mean unsigned int (non-negative integer)
 	// byte // alias for uint8
 	//rune // alias for int32
+
+	// run in last program
+	defer fmt.Println("Last func")
+
+	fmt.Println("Func")
 }
