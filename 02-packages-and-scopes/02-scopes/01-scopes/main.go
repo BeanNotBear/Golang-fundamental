@@ -17,5 +17,6 @@ func main() {
 	}
 
 	// you can  not get b. Because b is in the block
+	// declare b in here
 	//fmt.Println(b)
 }
